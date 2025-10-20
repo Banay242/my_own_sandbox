@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+  - name: 'prometheus-kafka'
+    orgId: 1
+    folder: 'Monitoring'
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /opt/bitnami/grafana/conf/provisioning/dashboards
